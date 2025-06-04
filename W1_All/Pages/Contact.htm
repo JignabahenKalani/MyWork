@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my content form</title>
+</head>
+<body>
+    <div style="text-align: center;">
+       <!-- <h1 style="background-color:powderblue; font-style: italic;">Contact Form</h1> -->
+        <img src="/W1_All/Images/img_c.png" alt="Contact" style="width: 100px; height: 100px;">
+        <p style="background-color:powderblue;color: rgb(5, 5, 143);font-style: oblique;">Please fill out the form below to contact us.</p>
+        <form action="submit_contact.php" method="post" style="display: inline-block; text-align: left;">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required placeholder="Enter your full name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30" placeholder="Enter your message"></textarea><br><br>
+
+            <input type="reset" value="Reset">
+            <input type="submit" name="submit" id="submit" value="Send Message">
+        </form>
+    </div>
+    
+</body>
+</html> 
