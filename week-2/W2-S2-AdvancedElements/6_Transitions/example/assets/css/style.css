@@ -1,0 +1,71 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin: 40px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #007BFF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    transition: all 0.4s ease;
+    /* Smooth transitions */
+    cursor: pointer;
+}
+
+/* Scale transformation */
+.scale-box:hover {
+    transform: scale(1.1);
+    /* Enlarge the box */
+    background-color: #0056b3;
+    /* Change color */
+}
+
+/* Rotate transformation */
+.rotate-box:hover {
+    transform: rotate(45deg);
+    /* Rotate the box */
+    background-color: #28a745;
+    /* Change color */
+}
+
+/* Translate (move) transformation */
+.translate-box:hover {
+    transform: translate(30px, 30px);
+    /* Move the box */
+    background-color: #ff6347;
+    /* Change color */
+}
+
+/* Multiple transformations: scale and rotate */
+.multi-transform-box:hover {
+    transform: scale(1.1) rotate(15deg);
+    /* Scale and rotate */
+    background-color: #ffc107;
+    /* Change color */
+}
+
+/* Footer styling */
+footer {
+    margin: 40px 0;
+}

@@ -1,0 +1,76 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Flexbox navigation */
+.navbar {
+    /* TODO: explain the purpose of the following properties */
+    display: flex;
+
+    justify-content: center;
+    background-color: #007BFF;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+}
+
+/* Flexbox content area */
+.content {
+    
+    /* TODO: explain the purpose of the following properties */
+    flex-wrap: wrap;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    max-width: 1200px;
+}
+
+/* Flexbox items */
+.box {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+
+    /* TODO: explain the purpose of the following properties */
+    flex: 1 1 200px;
+}
+
+.box:hover {
+    background-color: #218838;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+}

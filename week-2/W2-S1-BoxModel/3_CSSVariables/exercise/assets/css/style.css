@@ -1,0 +1,136 @@
+/* Basic Page Styles */
+:root {
+    --bg-color: #e81717;
+    --text-color: #000000;
+    --table-border-color: #dddddd;
+    --header-bg-color: #f1f1f1;
+    --header-text-color: #333333;
+}
+
+/* Dark mode variables */
+.dark-mode {
+    --bg-color: #020202;
+    --text-color: #f1f1f1;
+    --table-border-color: #555555;
+    --header-bg-color: #444444;
+    --header-text-color: #ad3b3b;
+    --font-family: 'Courier New', Courier, monospace;
+}
+body {
+    font-family: var(--font-family, Arial, sans-serif);
+    background-color:var(--bg-color);
+    color: var(--bg-color);
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #d1d348;
+    /* Hardcoded red */
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #752525;
+    /* Hardcoded white */
+    font-weight: bold;
+    font: optional;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    background-color:var(--header-bg-color);    
+    /* Hardcoded red */
+    color: #cce9d5;
+    /* Hardcoded white */
+    padding: 40px 0;
+    position: relative;
+}
+
+header h1 {
+    margin: 20px 0;
+
+}
+
+.header-image {
+    width: 100%;
+    
+}
+
+/* Main Content */
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: var(--bg-color);
+    /* Hardcoded white */
+}
+
+img {
+    max-height:fit-content;
+    width: 100%;
+    
+}
+
+.box {
+    width: 40%;
+    padding: 20px;
+    background-color: #fff3f3;
+    /* Light red background */
+    border: 2px solid #d90000;
+    /* Hardcoded red border */
+    color: #d90000;
+    /* Hardcoded red text */
+    text-align: center;
+}
+
+.box h2 {
+    margin-top: 0;
+}
+
+.box p {
+    color: #81846b;
+    /* Hardcoded black text */
+}
+
+a.option {
+    color: #371569;
+    /* Hardcoded red */
+    text-decoration: none;
+    width: 50%;
+}
+.box a.option:hover {
+    color: #9a4980;
+    /* Hardcoded red */
+    text-decoration: underline;
+}
+.box.hover:hover {
+    background-color: #0f0e0e;
+    /* Hardcoded red */
+    color: #ffffff;
+    /* Hardcoded white */
+}
+.box:hover {
+    background-color: #415970;
+
+    /* Hardcoded red */
+    color: #ffffff;
+    /* Hardcoded white */
+}
+
+
+/* Footer */

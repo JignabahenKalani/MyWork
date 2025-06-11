@@ -1,0 +1,28 @@
+body{
+    margin: 2px;
+    padding: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: rgba(109, 10, 76, 0.514);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: justify;
+}
+footer{
+    background-color: rgba(108, 183, 16, 0.514);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.hidden-text{
+    display: none;
+}
+.item{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(41, 18, 212, 0.8);
+    border: 1px solid rgba(114, 217, 248, 0.1);
+    border-radius: 5px;
+    display: block;
+}

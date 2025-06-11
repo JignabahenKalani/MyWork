@@ -1,0 +1,31 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Issue: This text is currently hidden */
+.hidden-text {
+    display: none;
+    /* Fix this */
+}
+
+/* Items are currently stacked vertically */
+.item {
+    display: block;
+    /* Change this to allow them to be side by side */
+    padding: 10px;
+    background-color: lightgreen;
+    margin: 5px;
+}

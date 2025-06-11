@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-group{
+    
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group.phone::before {
+    content: "📞 ";
+}
+.form-group.email::before {
+    content: "✉️ ";
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.email-label::before {
+    content: "✉️ ";
+    margin-right: 5px;
+}
+.phone-label::before {
+    content: "📞 ";
+    margin-right: 5px;
+}
+
+input,
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+f
+
+/* Pseudo-elements for Email and Phone Labels */
+/* Add ✉️ and 📞 icons before the labels */
+
+
+/* Styling the Terms and Conditions Link */
+.terms-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Add hover and visited states for the link */
+/* ::before pseudo-element for <h1> */

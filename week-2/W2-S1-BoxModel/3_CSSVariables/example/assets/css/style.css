@@ -1,0 +1,58 @@
+/* Define CSS variables for light and dark mode */
+:root {
+    --bg-color: #e81717;
+    --text-color: #000000;
+    --table-border-color: #dddddd;
+    --header-bg-color: #f1f1f1;
+    --header-text-color: #333333;
+}
+
+/* Dark mode variables */
+.dark-mode {
+    --bg-color: #000000;
+    --text-color: #f1f1f1;
+    --table-border-color: #555555;
+    --header-bg-color: #444444;
+    --header-text-color: #ffffff;
+}
+
+
+/* General page styling */
+body {
+     font-family: Arial, sans-serif;
+    background-color:var(--bg-color);
+    color: #9b5353;
+    color: var(--text-color);
+}
+
+/* Header styling */
+header {
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid var(--table-border-color);
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+}

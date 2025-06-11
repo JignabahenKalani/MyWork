@@ -1,0 +1,111 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Navigation */
+.main-nav {
+    
+    top: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: sticky; /* TASK 1: Make the navigation sticky at the top */
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.main-nav ul li {
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Header */
+.main-header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.main-header h1 {
+    font-size: 2.5rem;
+}
+
+.main-header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Action Boxes */
+.action-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.action-box {
+    background-color: #f4f4f4;
+    padding: 30px;
+    width: 30%;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.action-box:hover {
+    background-color: #ddd;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Get in Touch (incorrect position) */
+.get-in-touch {
+    /* TODO need to fix this to bottom and right */
+
+    /* Incorrect position */
+    
+}
+
+.get-in-touch img {
+    width: 150px;
+    height: auto;
+    right: 20px;
+    position: absolute;
+}
+
+/* TASK 1: Make the navigation sticky at the top */
+/* TASK 2: Fix the "Get in Touch" button in the bottom-right */

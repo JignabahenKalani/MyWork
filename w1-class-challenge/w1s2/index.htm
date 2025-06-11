@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My web page</title>
+</head>
+<body>
+    <h1>My Name is Jigna</h1>
+    <p>My favorite color is pink</p>
+    <p>My email address is <a href="mailto:jignakalani007@gmail.com">jignakalani007@gmail.com</a></p>
+    <p>My favorite website is <a href="https://www.google.com" target="_blank">Google</a></p>
+    <p>My favorite image is <img src="/Exercise/w1s2/images.jpeg" alt="Teddy"></p>
+
+    <div style="text-align: center;">
+        <h1 style="background-color:powderblue; font-style: italic;"> Baisic Form </h1>
+        <p style="background-color:powderblue;color: rgb(5, 5, 143);font-style: oblique;">Please fill out the form below to register.</p>
+        <form action="submit_registration.php" method="post" style="display: inline-block; text-align: left;">
+            <label for="Neme">Name:</label>
+            <input type="text" name="username" required="*" placeholder=" Enter your full name" value=""><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email" value=""><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="Enter your Password" value=""><br><br>
+
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required placeholder="Re-enter your Password" value=""><br><br>
+
+            <label for="mobile">Mobile:</label>            <input type="tel" id="mobile" name="mobile" required placeholder="Enter your mobile number" value=""><br><br>   
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="5" cols="30" placeholder="Enter your address"></textarea><br><br>   
+
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male" value="male" required><span>Male</span>
+            <input  type="radio" name="gender" id="female" value="female" required><span>Female</span><br><br>
+            
+            <label for="Date of Birth">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required value=""><br><br>
+
+            <label for="country">Country:</label>
+            <select name="country" id="country" required>
+                <option value="">... Select your country...</option>
+                <option value="India">India</option>
+                <option value="United Kingdom">United Kingdom </option>
+                <option value="France">France</option>
+            </select><br><br>
+
+            <label for="sports">Select sports you love:</label><br>
+            <input type="checkbox" name="sports[]" id="cricket" value="cricket"><span>Cricket</span>
+            <input type="checkbox" name="sports[]" id="football" value="football"><span>Football</span>
+            <input type="checkbox" name="sports[]" id="hockey" value="hockey"><span>Hockey</span><br><br>
+
+            <label for="fileupload">Upload Image:</label>
+            <input type="file" name="fileupload" id="fileupload" accept="image/*"><br><br>  
+
+            <input type="reset" value="Reset">
+            <input type="submit" name="submit" id="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>

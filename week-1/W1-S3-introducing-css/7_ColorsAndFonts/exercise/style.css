@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #333;
+}
+
+header p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Exercise Box Styles */
+.exercise-box-1 {
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px dashed #333;
+    text-align: center;
+    background-color: #ffffff;
+    /* Default background color */
+    font-family: Arial, sans-serif;
+    /* Default font */
+
+        background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Exercise Box Styles */
+.exercise-box-2 {
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px dashed #333;
+    text-align: center;
+    background-color: #ffffff;
+    /* Default background color */
+    font-family: Arial, sans-serif;
+    /* Default font */
+
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.exercise-box p {
+    margin: 0;
+    font-size: 16px;
+}
+
+#box-1 {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Yellow */
+}
+
+.box-2 {
+    background-color: lightgreen;
+    font-family: 'Times New Roman', Times, serif
+    /* Green */
+}

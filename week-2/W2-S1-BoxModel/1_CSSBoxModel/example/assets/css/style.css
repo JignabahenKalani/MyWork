@@ -1,0 +1,45 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007acc;
+    color: white;
+}
+
+/* Box Model Demonstration */
+.box-model-demo {
+    width: 80%;
+    padding: 20px;
+    border: 5px solid #007acc;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box-model-demo h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #007acc;
+}
+
+.box-model-demo p {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+    padding: 10px;
+    border-top: 3px solid #007acc;
+    text-align: center;
+    background-color: #e0e0e0;
+    margin-top: 20px;
+}

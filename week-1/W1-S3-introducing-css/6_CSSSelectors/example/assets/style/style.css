@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: red;
+    text-decoration: dotted;
+}
+
+.heading1 {
+    color: red;
+    text-decoration: underline;
+}
+
+.heading3 {
+    color: green;
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+}
+
+#title {
+    color: yellow;
+    text-decoration: underline;
+}

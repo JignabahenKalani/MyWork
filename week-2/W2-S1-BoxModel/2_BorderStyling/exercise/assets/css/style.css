@@ -1,0 +1,122 @@
+/* Basic page styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #3a3a3a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    /* Add margin to the top and bottom of the heading */
+    margin: 0.5em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(129, 210, 99);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+.banner {
+    background-color: #00a2e8;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin-bottom: 20px;
+    border: 5px solid #ffcc00; /* Example of a solid border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Example of a drop shadow */
+    border-radius: 10px; /* Optional: rounded corners for the banner */
+    position: relative;
+}
+
+.banner h2 {
+    margin: 0;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;  
+    background-color: #f9f9f9;
+    border: 2px solid #ccc; /* Example of a solid border around the products section */
+    border-radius: 10px; /* Optional: rounded corners for the products section */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: drop shadow for the products section */
+    margin: 20px;
+    position: relative;
+}
+
+.product {
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid rgb(27, 16, 16);
+    border-radius: 10px; /* Optional: rounded corners for each product */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: drop shadow for each product */
+    
+}
+.solid-border {
+    border: 2px solid rgb(199, 19, 19);
+}
+
+.dashed-border {
+    border: 2px dashed rgb(74, 41, 172);
+}
+
+.dotted-border {
+    border: 2px dotted rgb(27, 156, 74);
+}
+
+.double-border {
+    border: 5px double rgb(84, 114, 143);
+}
+
+.groove-border {
+    border: 4px groove rgb(45, 39, 32);
+}
+
+/* Drop shadow examples */
+.shadow-small {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-medium {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.banner.hover {
+    background-color: #000000; /* Darker blue on hover */
+    transition: background-color 0.3s ease;
+}
+.product:hover {
+    transform: scale(1.05); /* Slightly enlarge the product on hover */
+    transition: transform 0.3s ease;
+    
+}
