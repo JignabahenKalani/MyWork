@@ -15,11 +15,15 @@ nav {
 }
 
 nav .logo {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
     font-size: 24px;
     font-weight: bold;
-}
+    margin-bottom: 20px;
 
-nav .nav-links a {
+}
+.nav-links a {
     color: white;
     margin: 0 15px;
     text-decoration: none;
@@ -27,7 +31,10 @@ nav .nav-links a {
 }
 
 #header {
+    background-color: #c1b3b3; /* Dark background for header */
+    color: rgb(23, 19, 87);
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 40px;
 }
 
@@ -50,7 +57,7 @@ nav .nav-links a {
 
 h1,
 h2 {
-    color: #007acc;
+    color: #07273e;
     margin-bottom: 20px;
 }
 
@@ -78,16 +85,24 @@ input[type="submit"] {
     border-radius: 4px;
 }
 
-.section {
-    margin: auto;
+#section {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 40px;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.section-content {
+
     padding: 20px;
     margin-bottom: 40px;
     width: 800px
 }
-
 .intro-text {
     width: 50%;
-    float: right;
+    float: left;
     padding: 20px;
 }
 
@@ -102,11 +117,39 @@ input[type="submit"] {
 }
 
 .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     margin-bottom: 20px;
+
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group input[type="submit"] {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #005f99;
 }
 
 .clearfix::after {
     content: "";
-    display: table;
+    display: block;
     clear: both;
 }
