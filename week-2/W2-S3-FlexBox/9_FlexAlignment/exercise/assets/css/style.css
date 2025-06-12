@@ -24,14 +24,14 @@ body {
     border: 2px solid #ccc;
 
     /* Flexbox alignment properties */
-    justify-content: space-around;
+    justify-content: space-between;
     /* TODO: flex-start, center, space-between */
-    align-items: center;
+    align-items:baseline;
     /* TODO: flex-start, center, flex-end */
 }
 
 .box {
-    flex: 0 0 100px;
+    flex: 1 1 100px;
     height: 100px;
     background-color: #4CAF50;
     color: white;
