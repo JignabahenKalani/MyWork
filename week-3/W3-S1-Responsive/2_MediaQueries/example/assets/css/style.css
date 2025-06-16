@@ -1,0 +1,83 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.mobile-menu {
+    display: none;
+    /* Hidden by default */
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+
+    /* TODO: describe what these do */
+    main {
+        flex-direction: column;
+    }
+
+    .content-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* TODO: what happens if max-width is changed to min-width? */
+@media (max-width: 600px) {
+
+    /* TODO: describe what these do */
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    /* TODO: describe what these do */
+    body {
+        background-color: #e0f7fa;
+    }
+}

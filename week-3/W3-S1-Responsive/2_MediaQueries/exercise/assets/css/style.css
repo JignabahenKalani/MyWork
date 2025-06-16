@@ -1,0 +1,132 @@
+/* Basic page styles */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #2A2E2C;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    /* Add margin to the top and bottom of the heading */
+    margin: 0.5em 0;
+    font-style: italic;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+#mobile-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#desktop-menu {
+    display: none;
+}
+
+.banner {
+    background-color: #ac8a04;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    display: none;
+}
+
+.banner h2 {
+    margin: 0;
+}
+
+.logo {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    /** Add background image here */
+    background-image: url(../images/background.webp);
+    background-size: cover;
+
+    /* add 50% opacity to the background image */
+}
+
+.product {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.small-print {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+button {
+    background-color: #ac8a04;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* TODO: describe what each of these rules do */
+@media screen and (min-width: 768px) {
+    .products {
+        padding: 40px;
+    }
+
+    .product {
+        width: 300px;
+    }
+
+    .banner {
+        display: block;
+    }
+
+    #mobile-menu {
+        display: none;
+    }
+
+    #desktop-menu {
+        display: block;
+    }
+}
+
+@media (orientation: landscape) {
+    body {
+        background-color: #ac8a04;
+    }
+}
