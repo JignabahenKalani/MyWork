@@ -104,29 +104,30 @@ button {
 
 /* TODO: describe what each of these rules do */
 @media screen and (min-width: 768px) {
-    .products {
+    .products { /* products image padding change */
         padding: 40px;
     }
 
-    .product {
+    .product { /* all product with are change in white background one  */
         width: 300px;
     }
 
-    .banner {
-        display: block;
+    .banner { /* banner  disply in fix block*/
+        display:block;
+        background-color: rgb(54, 82, 82);
     }
 
-    #mobile-menu {
-        display: none;
+    #mobile-menu { /* mobile menu block */
+        display: none; 
     }
 
-    #desktop-menu {
+    #desktop-menu { /* desktop manu block*/
         display: block;
     }
 }
 
-@media (orientation: landscape) {
+@media (orientation:landscape) { /*show in landscape*/
     body {
-        background-color: #ac8a04;
+        background-color: #162324;
     }
 }

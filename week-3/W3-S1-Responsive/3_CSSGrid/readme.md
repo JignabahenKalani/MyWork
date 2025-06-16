@@ -3,7 +3,6 @@
 ## Challenge
 
 In this exercise, you'll be working with a basic todo task dashboard that uses CSS Grid to layout the page with key areas: the header, task list, sidebar menu, and footer. Your goal is to understand how different CSS Grid properties like `grid-template-areas`, `grid-template-columns`, `grid-template-rows`, and `gap` affect the layout and responsiveness of the dashboard. You'll answer questions and make adjustments to the grid to see how changes affect the structure and design.
-
 ### Questions to Explore:
 
 1. **Grid Layout Understanding**:
