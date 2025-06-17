@@ -65,7 +65,7 @@ week2-assignment/
 ##  Responsive Testing
 
 ✅ Tested across:
-- 📱 Mobile Devices (iPhone, Android)
+- 📱 Mobile Devices
 - 💻 Laptops
 - 🖥️ Desktops
 
