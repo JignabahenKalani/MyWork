@@ -10,6 +10,7 @@ body {
     width: 200px;
     display: inline-block;
     text-align: center;
+    
 }
 
 .text-element {
@@ -18,7 +19,7 @@ body {
 
 button {
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #37983a;
     color: white;
     border: none;
     cursor: pointer;

@@ -11,7 +11,7 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: "Pinyon Script", cursive;
 }
 
 /* Main Content Styles */
@@ -34,6 +34,7 @@ h2 {
 
 /* Paragraph Styles */
 p {
+
     font-family: Arial, sans-serif;
     color: #333333;
     margin-bottom: 15px;
@@ -45,6 +46,17 @@ p.highlight {
     color: #000000;
     padding: 10px;
     border-left: 5px solid #007acc;
+}
+
+.caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.lavishly-yours-regular {
+  font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jQuery CSS Manipulation</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- TODO: Add in the jQuery script  -->>
+    <!-- TODO: Add in the jQuery script  -->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
@@ -37,6 +37,10 @@
         <p class="text-element">Text 4</p>
         <button class="btn">Italicize Text</button>
     </div>
+     <div class="box" id="box5">
+        <p class="text-element">Text 5</p>
+        <button class="btn">Font Style</button>
+    </div>
 
     <script>
         $(document).ready(function () {
@@ -46,22 +50,38 @@
             });
 
             // TODO: Increase font size for the second box
-            
-            
-            $('#box2').click(function () {
-                $('#box2').css('color', 'red');
+            $('#box2').click(function(){
+                $('#box2').css('font-size', 'xx-large');
             });
-
+            
             $('#box2').click(function () {
-                $('#box2').css('color', 'red');
+                $('#box2').css('color', 'green');
             });
 
             // TODO: Change background color for the third box
 
+            $('#box3').click(function (){
+                $('#box3').css('background-color', 'yellow')
+            });
+
             // TODO: Italicize text for all the text elements
+            $('#box4').click(function (){
+                $('#box4').css('font-style', 'italic')
+            });
+             $('#box4').click(function () {
+                $('#box4').css('color', 'chocolate');
+            });
 
+            $('#box5').click(function () {
+                $('#box5').css('font-family', 'Times New Roman',);
+                $('#box5').css('color', 'darkblue');
+                $('#box5').css('font-size', 'xx-small');
+            });
+            });
 
-        });
+            $('body').click(function (){
+                $('body').css('background-color', 'cadetblue')
+            });
     </script>
 
 </body>
