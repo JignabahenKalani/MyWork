@@ -1,0 +1,109 @@
+:root { /* root variable*/
+    --primary-color: #4f453630;
+    --secondary-color: #351e82;
+    --background-color: #f9f7fe;
+    --text-color: #0b0c0c;
+    --border-radius: 5px;
+    --max-width: 1200px;
+    --padding: 1px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body { /* css for body */
+    margin: 0;
+    font-family: var(--font-faimly);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container { /* css for container class */
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--padding);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    /* nav bar font and color change  */
+    background-color: var(--primary-color) !important;
+    font-family: "Pacifico", cursive;
+}
+
+.py-5 { /* css for py-5 class background color important */
+    background-color: var(--primary-color) !important;
+}
+
+h2.text-primary { /* css for google fonts in h2 tag */
+    font-family: "Pacifico", cursive;
+    color: rgb(27, 27, 27) !important;
+}
+
+h5.text-primary { /* css for google fonts in h5 tag */
+    font-family: "Pacifico", cursive;
+    color: rgb(27, 27, 27) !important;
+}
+
+p.lead { /* css for p tag */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card { /* css for  card class */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.card-text {
+    margin-top: 1rem;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.card-text:hover {
+    /* card text hover effect */
+    color: rgb(49, 70, 175);
+}
+
+.card:hover {
+    /* card hover effect */
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.dropdown:hover .dropdown-menu { /* css for dropdown hover effects */
+    display: block;
+    margin-top: 0;
+}
+
+label {
+    /* for tool tip manu*/
+    display: inline-block;
+    width: 10em;
+}
+
+.form-group { /* css for  form group */
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(27, 27, 27) !important;
+    display: block;
+}
+
+footer {  /* css for footer */
+    background-color: var(--primary-color) !important;
+    color: rgb(4, 4, 4);
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+    font-family: "Pacifico", cursive;
+}

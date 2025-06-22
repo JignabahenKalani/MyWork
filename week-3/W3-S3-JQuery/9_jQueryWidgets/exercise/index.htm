@@ -20,7 +20,7 @@
         .draggable-box {
             width: 150px;
             height: 150px;
-            background-color: #4CAF50;
+            background-color: #a042ab;
             color: white;
             display: flex;
             justify-content: center;
@@ -35,6 +35,11 @@
 
         .autocomplete {
             margin-bottom: 20px;
+        }
+        #resizable{
+            width: 150px;
+            height: 150px;
+            padding: 0.5em;
         }
     </style>
 </head>
@@ -54,6 +59,12 @@
     <!-- Autocomplete Input -->
     <p>Start typing a fruit: <input type="text" id="autocomplete" class="autocomplete"></p>
 
+    <div id="resizable" class="ui-widget-content">
+  <h3 class="ui-widget-header">Resize </h3>
+</div>
+
+    <div id="slider"></div>
+    
     <script>
         $(document).ready(function () {
             // Draggable widget
@@ -70,6 +81,11 @@
             $("#autocomplete").autocomplete({
                 source: availableFruits
             });
+
+            $("#resizable").resizable();
+            
+            $( "#slider" ).slider();
+  
         });
     </script>
 

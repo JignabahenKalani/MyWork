@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Smile NGO</title>
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <!-- tooltip jquery for card text  -->
+    <script>
+        $(function () {
+            $(document).tooltip();
+        });
+    </script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg"> <!-- bootstrap nav bar -->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./assets/images/logo.jpg" height="40" alt="Smile NGO logo" />
+                ngo
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./assets/pages/about.html">About Us</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./assets/pages/ourwork.html">
+                            Our Work
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./assets/pages/education.html">Education</a></li>
+                            <li><a class="dropdown-item" href="./assets/pages/health.html">Health</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./assets/pages/contact-us.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./assets/pages/donation.html">Donate</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./assets/pages/login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./assets/pages/signup.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="mainSlider" class="carousel slide" data-bs-ride="carousel"> <!-- slider -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/images/slider1.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/slider2.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/slider3.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section class="py-5 text-center">
+        <div class="container">
+            <h2 class="text-primary mb-3">Welcome to Smile NGO</h2>
+            <p class="lead">Smile NGO is dedicated to creating a better future by focusing on education and health for
+                underprivileged communities. Our mission is to empower individuals through knowledge and wellness.</p>
+            <p class="lead">We welcome donations that directly support our education programs and healthcare
+                initiatives. Your support helps us make a meaningful impact in people's lives.</p>
+            <a href="./assets/pages/about.html" class="btn btn-outline-secondary mt-4">Learn More About Us</a>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="./assets/images/eduction.jpg" class="card-img-top" alt="Education">
+                        <div class="card-body">
+                            <p class="card-text" title=" We provide a best eduction ">We provide quality education to
+                                underprivileged children.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="./assets/images/health.jpg" class="card-img-top" alt="Health">
+                        <div class="card-body">
+                            <p class="card-text" title=" We provide a best healthcare ">Healthcare initiatives to
+                                improve community wellness.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="./assets/images/donation.jpeg" class="card-img-top" alt="Donation">
+                        <div class="card-body">
+                            <p class="card-text" title=" Your donation is very important for us  ">Your donations help
+                                us continue our mission and reach more lives.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="pt-4 pb-2">
+        <div class="container">
+            <div class="row text-center text-md-left">
+                <div class="col-md-4 mb-3">
+                    <h5> <a href="./index.html"><img src="./assets/images/logo.jpg" height="40"
+                                alt="Smile NGO logo"></a> ngo </h5>
+                    <p>Creating brighter futures through education and health.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html" class="text-black">Home</a></li>
+                        <li><a href="./assets/pages/about.html" class="text-black">About Us</a></li>
+                        <li><a href="./assets/pages/ourwork.html" class="text-black">Our Work</a></li>
+                        <li><a href="./assets/pages/contact-us.html" class="text-black">Contact</a></li>
+                        <li><a href="./assets/pages/donation.html" class="text-black">Donate</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Contact Us</h5>
+                    <p>Email: contact@smilengo.org</p>
+                    <p>Phone: +44 98765 43210</p>
+                    <p>Address: 103, Heathside Road, London, IG7 9SY</p>
+                </div>
+            </div>
+            <div class="text-center border-top pt-3">
+                <p class="mb-0">&copy; 2025 Smile ngo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
