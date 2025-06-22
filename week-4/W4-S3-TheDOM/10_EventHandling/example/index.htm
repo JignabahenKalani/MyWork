@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Events Demo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <h1>DOM Events Demo</h1>
+
+    <!-- Button click event -->
+    <button id="clickButton">Click Me!</button>
+    <p>Button click count: <span id="clickCount">0</span></p>
+
+    <!-- Key press event -->
+    <p>Press any key: <span class="info" id="keyInfo">None</span></p>
+
+    <!-- Scroll event -->
+    <div id="scrollBox">
+        <div id="scrollContent"></div>
+    </div>
+    <p>Scroll position: <span class="info" id="scrollPos">0</span></p>
+
+    <!-- Mouse movement event -->
+    <div id="mouseBox"></div>
+    <p>Mouse position inside box: <span class="info" id="mousePos">x: 0, y: 0</span></p>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

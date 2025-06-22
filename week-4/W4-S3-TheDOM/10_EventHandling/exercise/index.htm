@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <h2>Dashboard</h2>
+            <ul>
+                <li>Overview</li>
+                <li>Analytics</li>
+                <li>Reports</li>
+                <li>Settings</li>
+                <li>Logout</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h1 id="page-title">Dashboard Overview</h1>
+            <div class="widget">
+                <h2>Search for something</h2>
+                <input type="text" id="searchTerm" placeholder="Enter a search term" />
+                <button id="searchButton">Search</button>
+            </div>
+            <div class="widget">
+                <h2>Recent Searches</h2>
+                <ul id="searches">
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+<script src="./assets/js/script.js"></script>
+
+</html>
