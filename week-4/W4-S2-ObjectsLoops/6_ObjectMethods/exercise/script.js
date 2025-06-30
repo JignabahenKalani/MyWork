@@ -4,14 +4,14 @@ const person = {
   age: 30,
   city: "New York",
 };
-console.log("Keys:", Object.keys(person));
+console.log("Keys:", Object.keys(person)); // out put is wole object show 
 
 // 2. Object.values() - TODO: WHat does this method do? What is the output?
-console.log("Values:", Object.values(person));
+console.log("Values:", Object.values(person)); // contain only value 
 
 // 3. Array.push() - TODO: WHat does this method do? What is the output?
 let fruits = ["apple", "banana"];
-fruits.push("orange");
+fruits.push("orange");  // add one more
 console.log("After push:", fruits); // ["apple", "banana", "orange"]
 
 // 4. Array.pop() - TODO: WHat does this method do? What is the output?
