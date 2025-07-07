@@ -1,52 +1,70 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e3f2fd;
+  background-size: cover;
+  background-position: center;
+  transition: background-color 0.3s, color 0.3s, background-image 0.5s ease-in-out;
 }
 
 .weather-dashboard {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 300px;
+  max-width: 90vw;
+  width: 100%;
+  max-height: 95vh;
+  overflow-y: auto;
 }
 
-.input-section {
-    margin-bottom: 20px;
+@media (min-width: 768px) {
+  .weather-dashboard {
+    width: 600px;
+  }
 }
 
-input {
-    padding: 10px;
-    width: 70%;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-right: 10px;
+.glassmorph {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-button {
-    padding: 10px 15px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.weather-result img {
+  width: 64px;
+  height: 64px;
 }
 
-button:hover {
-    background-color: #0056b3;
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
 }
 
-.weather-result {
-    margin-top: 20px;
+body.light-mode {
+  color: #222;
 }
 
-.weather-result p {
-    margin: 10px 0;
+#suggestion img {
+  height: 80px;
+  margin-top: 10px;
+}
+
+body.weather-rain::after,
+body.weather-snow::after {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.2;
+}
+
+body.weather-rain::after {
+  background-image: url('https://i.gifer.com/7Pva.gif');
+  background-size: cover;
+}
+
+body.weather-snow::after {
+  background-image: url('https://i.gifer.com/VgG.gif');
+  background-size: cover;
+}
+body.weather-clear::after {
+  background-image: url('https://i.gifer.com/3X2.gif');
+  background-size: cover;
 }
